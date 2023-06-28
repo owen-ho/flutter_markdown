@@ -1,4 +1,4 @@
-A fork of Flutter's flutter_markdown dependency
+A fork of Flutter's flutter_markdown dependency which applies fix from this issue https://github.com/flutter/flutter/issues/81720
 # Flutter Markdown
 [![pub package](https://img.shields.io/pub/v/flutter_markdown.svg)](https://pub.dartlang.org/packages/flutter_markdown)
 
