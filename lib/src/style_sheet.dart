@@ -86,7 +86,7 @@ class MarkdownStyleSheet {
   factory MarkdownStyleSheet.fromTheme(ThemeData theme) {
     assert(theme.textTheme.bodyMedium?.fontSize != null);
     return MarkdownStyleSheet(
-      a: const TextStyle(color: Colors.blue),
+      a: const TextStyle(color: Color(0xff00bfb2)),
       p: theme.textTheme.bodyMedium,
       pPadding: EdgeInsets.zero,
       code: theme.textTheme.bodyMedium!.copyWith(
@@ -264,7 +264,7 @@ class MarkdownStyleSheet {
   /// [MarkdownStyle.fromTheme].
   factory MarkdownStyleSheet.largeFromTheme(ThemeData theme) {
     return MarkdownStyleSheet(
-      a: const TextStyle(color: Colors.blue),
+      a: const TextStyle(color: Color(0xff00bfb2)),
       p: theme.textTheme.bodyMedium,
       pPadding: EdgeInsets.zero,
       code: theme.textTheme.bodyMedium!.copyWith(
